@@ -1,0 +1,22 @@
+@import "../color.scss";
+
+.job-list {
+  padding-top: 100px;
+
+  &-info {
+    text-align: center;
+    display: block;
+    color: $grey;
+  }
+
+  &-title {
+    text-align: center;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  &-content {
+    padding-top: 50px;
+  }
+}

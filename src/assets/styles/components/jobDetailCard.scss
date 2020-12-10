@@ -1,0 +1,30 @@
+.jobDetailCard {
+  padding: 50px 0;
+  width: 100%;
+  background-color: $back-grey;
+
+  &-logo-wrapper {
+    height: 120px;
+    width: 120px;
+    border: 1px solid $light-grey;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+
+  &-logo {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  &-companyName {
+    margin: 0;
+    margin-bottom: 8px;
+  }
+}

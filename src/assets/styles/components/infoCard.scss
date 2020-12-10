@@ -1,0 +1,19 @@
+.infoCard {
+  &-hood {
+    background-color: $light-grey;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  &-content {
+    padding: 20px 30px;
+    background-color: $back-grey;
+
+    span {
+      display: block;
+      padding: 0 20px;
+      font-size: 0.9rem;
+    }
+  }
+}
