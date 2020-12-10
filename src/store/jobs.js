@@ -15,7 +15,6 @@ export default {
         fetch("https://my-json-server.typicode.com/ilker0/jobs-api/items")
           .then((res) => res.json())
           .then((data) => {
-            console.log(data);
             commit("setJobList", data);
             resolve();
           })

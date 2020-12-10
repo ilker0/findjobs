@@ -18,7 +18,6 @@ export default {
         )
           .then((res) => res.json())
           .then((data) => {
-            console.log(data);
             commit("setJobDetail", data);
             resolve();
           })
